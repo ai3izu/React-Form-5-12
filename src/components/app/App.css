@@ -1,0 +1,45 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.App{
+  height: 100vh;
+  max-width: 1400px;
+  background-color: darkgray;
+  font-size: 10px;
+}
+.banner{
+  display: flex;
+  height: 15vh;
+  background-color: #333;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+}
+.form-main{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 1.5rem;
+  background-color: darkgray;
+  height: 20vh;
+}
+.form-results{
+  display: flex;
+  flex-direction: column;
+  height: 30vh;
+  border: 2px dotted black;
+  overflow: auto;
+  font-size: 0.8rem;
+}
+.container{
+  height: 75vh;
+}
+.footer{
+  height: 10vh;
+  background-color: #333;
+  font-size: 1.5rem;
+  text-align: center;
+}
